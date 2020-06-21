@@ -1,0 +1,8 @@
+- withdraw $10 should return 10 ok
+- withdraw $20 should return 20 ok
+- withdraw $40 should return 2 x 20 ok
+- withdraw $100 should return 1 x 100 ok
+- withdraw $50 should return 1 x 50 ok
+- withdraw $5 should return exception ok
+- withdraw $80 should return 1 x $50, 1 x $20, 1 x $10
+- withdraw $180 should return 2 x $50, 1 x $20, 1 x $10
